@@ -1,0 +1,102 @@
+$sprite: url("../images/sp.png");
+$sprite-hv: url("../images/sp-hv.png");
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1160px;
+}
+
+.header-logo {
+  margin: 37px 0 0 5px;
+}
+
+.header-social {
+  position: relative;
+  right: 4px;
+  top: -28px;
+}
+
+.header-social li {
+  float: right;
+}
+
+.header-social a {
+  display: block;
+  height: 16px;
+  margin-left: 15px;
+}
+
+.header-social .facebook {
+  width: 8px;
+  background: $sprite 0 0 no-repeat;
+}
+
+.header-social .facebook:hover {
+  background: $sprite-hv 0 0;
+}
+
+.header-social .twitter {
+  width: 10px;
+  background: $sprite -16px 0 no-repeat;
+}
+
+.header-social .twitter:hover {
+  background: $sprite-hv -13px 0;
+}
+
+.header-social .rss {
+  width: 16px;
+  background: $sprite -25px 0 no-repeat;
+}
+
+.header-social .rss:hover {
+  width: 16px;
+  background: $sprite-hv -24px 0;
+}
+
+.header-social .linkedin {
+  width: 17px;
+  background: $sprite -41px 0 no-repeat;
+}
+
+.header-social .linkedin:hover {
+  width: 17px;
+  background: $sprite-hv -40px 0;
+}
+
+.header-social .skype {
+  width: 17px;
+  background: $sprite -58px 0 no-repeat;
+}
+
+.header-social .skype:hover {
+  width: 17px;
+  background: $sprite-hv -56px 0;
+}
+
+.header-menu {
+  background-color: #2a2d32;
+  width: 1160px;
+  margin-top: 35px;
+}
+
+.header-menu li {
+  display: inline-block;
+}
+
+.header-menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 0px 33px;
+  line-height: 56px;
+}
+
+.header-menu a:hover {
+  color: #f4b60d;
+}
