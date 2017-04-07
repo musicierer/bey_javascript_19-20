@@ -1,5 +1,5 @@
 body {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .wrapper {
   margin: 0 auto;
@@ -65,7 +65,8 @@ body {
   margin-top: 35px; }
 
 .header-menu li {
-  display: inline-block; }
+  display: inline-block;
+  border-right: 1px solid #000; }
 
 .header-menu a {
   text-transform: uppercase;
@@ -77,5 +78,161 @@ body {
 
 .header-menu a:hover {
   color: #f4b60d; }
+
+.header-menu li:active {
+  background-color: #248cec; }
+
+.jcarousel-wrapper {
+  margin: 20px auto;
+  position: relative; }
+
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+  width: 1160px;
+  height: 470px; }
+
+.jcarousel ul {
+  width: 20000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.jcarousel li {
+  float: left; }
+
+.jcarousel li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../images/main-logo.png") no-repeat;
+  width: 308px;
+  height: 197px;
+  left: 40px;
+  top: 240px; }
+
+.jcarousel-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 500px;
+  width: 150px;
+  height: 30px; }
+
+.jcarousel-pagination a {
+  content: "";
+  display: inline-block;
+  background: url("../images/paginator.png") no-repeat;
+  width: 15px;
+  height: 15px;
+  font-size: 0;
+  margin-right: 15px; }
+
+.jcarousel-pagination a.active {
+  background: url("../images/paginator-ac.png") no-repeat; }
+
+.main-content {
+  display: flex;
+  width: 240px; }
+
+.main-content {
+  width: 100%;
+  position: relative; }
+
+.main-content-columns {
+  display: inline-block;
+  width: 250px;
+  margin-left: 124px; }
+  .main-content-columns h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 31px; }
+  .main-content-columns p {
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8a8a8a;
+    padding-bottom: 28px; }
+  .main-content-columns a {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 87px; }
+  .main-content-columns a:hover {
+    color: #248cec; }
+  .main-content-columns .arrow {
+    content: "";
+    display: block;
+    position: relative;
+    background: url("../images/arrow.png") no-repeat;
+    width: 10px;
+    height: 9px;
+    left: 85px;
+    bottom: 97px; }
+  .main-content-columns .arrow:hover {
+    background: url("../images/arrow-ac.png") no-repeat; }
+
+.number-one:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../images/numbers.png") 0 0 no-repeat;
+  width: 80px;
+  height: 64px;
+  left: 10px;
+  top: 54px; }
+
+.number-two:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../images/numbers.png") -80px 0 no-repeat;
+  width: 87px;
+  height: 64px;
+  left: 385px;
+  top: 54px; }
+
+.number-three:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../images/numbers.png") -169px 0 no-repeat;
+  width: 87px;
+  height: 64px;
+  left: 750px;
+  top: 54px; }
+
+.settings:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../images/main-elem.png") 0 0 no-repeat;
+  width: 33px;
+  height: 34px;
+  left: 119px;
+  top: 54px; }
+
+.params:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../images/main-elem.png") -32px 0 no-repeat;
+  width: 33px;
+  height: 34px;
+  left: 493px;
+  top: 54px; }
+
+.truck:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../images/main-elem.png") -65px 0 no-repeat;
+  width: 33px;
+  height: 34px;
+  left: 868px;
+  top: 54px; }
 
 /*# sourceMappingURL=style.css.map */
